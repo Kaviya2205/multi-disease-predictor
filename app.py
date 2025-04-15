@@ -5,13 +5,13 @@ import pickle
 
 # Load models and scalers
 model_d = pickle.load(open('model_diabetes.pkl', 'rb'))
-scaler_d = pickle.load(open('scaler_diabetes.pkl', 'rb'))
+scaler_d = pickle.load(open('models/scaler_diabetes.pkl', 'rb'))
 
 model_h = pickle.load(open('model_heart.pkl', 'rb'))
-scaler_h = pickle.load(open('scaler_heart.pkl', 'rb'))
+scaler_h = pickle.load(open('models/scaler_heart.pkl', 'rb'))
 
 model_p = pickle.load(open('model_parkinsons.pkl', 'rb'))
-scaler_p = pickle.load(open('scaler_parkinsons.pkl', 'rb'))
+scaler_p = pickle.load(open('models/scaler_parkinsons.pkl', 'rb'))
 
 st.title("🧠 Multi-Disease Prediction System")
 st.markdown("Select a disease and input values to check the risk prediction.")
