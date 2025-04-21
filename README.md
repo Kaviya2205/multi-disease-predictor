@@ -106,7 +106,4 @@ Contributions are welcome! Feel free to open issues, suggest features, or submit
 This project is for academic and educational purposes only.
 
 ---
-## 🔗 Live Demo
 
-Try the live demo here:  
-👉 [Multi-Disease Prediction App]([https://kaviya-multi-disease-prediction.streamlit.app](https://multi-disease-predictor-jyjggusay2ozifpul7w9kh.streamlit.app))
